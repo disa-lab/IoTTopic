@@ -7,7 +7,7 @@ Our study offers several findings based on the four research questions as discus
 
 **_Q1.What  topics  are  discussed  by  IoT  developers  in  Stack  Overflow  (SO)?_**
 
-**_Q2.  How do the IoT topics evolve over time?_ **
+**_Q2.  How do the IoT topics evolve over time?_**
 
 **_Topic Absolute Impact:_** 
 
@@ -26,5 +26,5 @@ We  use  the  relative  impact  metric to  calculate  the  relative  impact  of 
 **_Q3.  What types of questions are asked across the IoT topics?_**
 
 
-**_Q4.  How do the popularity and difficulty of the topics vary? _**
+**_Q4.  How do the popularity and difficulty of the topics vary?_**
 
