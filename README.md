@@ -24,5 +24,7 @@ We  use  the  relative  impact  metric to  calculate  the  relative  impact  of 
 <a href="https://www.codecogs.com/eqnedit.php?latex=impact_{relative}(c,zk,m)&space;=&space;\frac{1}&space;{|D(c,m)|}\sum_{di=1}^\theta&space;(di;&space;zk)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?impact_{relative}(c,zk,m)&space;=&space;\frac{1}&space;{|D(c,m)|}\sum_{di=1}^\theta&space;(di;&space;zk)" title="impact_{relative}(c,zk,m) = \frac{1} {|D(c,m)|}\sum_{di=1}^\theta (di; zk)" /></a>
 
 _Q3.  What types of questions are asked across the IoT topics?_
+
+
 _Q4.  How do the popularity and difficulty of the topics vary? _
 
