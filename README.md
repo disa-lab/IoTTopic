@@ -9,7 +9,7 @@ _Q1.What  topics  are  discussed  by  IoT  developers  in  Stack  Overflow  (SO)
 
 _Q2.  How do the IoT topics evolve over time?_ 
 
-_Topic Absolute Impact:_ 
+**_Topic Absolute Impact:_** 
 
 We compute topic popularity metric is used  to identify the topic popularity for each topic _Zk_ within corpus _cj_ as
 <a href="https://www.codecogs.com/eqnedit.php?latex=popularity&space;(z_k,c_j)&space;=&space;\frac{|{d_i}|}{|c_j|}:dominant&space;(d_i)=z_k,1<=i<=c_j" target="_blank"><img src="https://latex.codecogs.com/gif.latex?popularity&space;(z_k,c_j)&space;=&space;\frac{|{d_i}|}{|c_j|}:dominant&space;(d_i)=z_k,1<=i<=c_j" title="popularity (z_k,c_j) = \frac{|{d_i}|}{|c_j|}:dominant (d_i)=z_k,1<=i<=c_j" /></a>
