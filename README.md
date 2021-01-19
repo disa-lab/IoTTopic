@@ -4,6 +4,7 @@ Replication package for topic analysis study of SO IoT posts
 In text mining, we often used collections of documents in form of blog posts, news articles and comments that are further divided into natural groups. This will help to understand the content of each document separately. Topic modelling is a sub technique of unsupervised classification of textual documents that help to identify groups of similar behaviour.
 Internet of Things (IoT) is regarded as a remarkable development of the modern information technology. There is abundant digital products data on the IoT, linking with multiple types of objects/entities. As the use of IoT product market is growing in large number, there is a need to address the most common issues faced by the users while using technologies associated to IoT. In this study, we download a large number of Stack Overflow posts that contain discussions about various IoT technologies. We apply topic modeling on the textual contents of the posts. We label the topics and categorize the topics into hierarchies. We analyse the popularity and difficulty of the topics. 
 Our study offers several findings based on the four research questions as discussed below;
+
 _Q1.What  topics  are  discussed  by  IoT  developers  in  Stack  Overflow  (SO)?_ 
 
 _Q2.  How do the IoT topics evolve over time?_ 
