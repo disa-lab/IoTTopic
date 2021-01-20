@@ -8,9 +8,19 @@ Our study offers several findings based on the four research questions as discus
 **StackOverflow IoT dataset**: collected from IoT related 53K SO posts. List of all tags used in the IoT data collection:
 The Stack Overflow September 2019 data dump is used. The dump can be downlaoded from [archive.org](https://archive.org/details/stackexchange)
 
+The list of tags for each question in our dataset can be found in QuestionTags.json file.
+
 - ***arduino***: arduino, arduino-c++, arduino-due, arduino-esp8266, arduino-every, arduino-ide, arduino-mkr1000, arduino-ultra-sonic, arduino-uno, arduino-uno-wifi, arduino-yun, platformio
 - ***iot***: audiotoolbox, audiotrack, aws-iot, aws-iot-analytics, azure-iot-central, azure-iot-edge, azure-iot-hub, azure-iot-hub-device-management, azure-iot-sdk, azure iot-suite, bosch-iot-suite, eclipse-iot, google-cloud-iot, hypriot, iot-context-mapping, iot-devkit, iot-driver-behavior, iot-for-automotive, iot-workbench, iotivity, microsoft iot-central, nb-iot, rhiot, riot, riot-games-api, riot.js, riotjs, watson-iot, windows-10-iot-core, windows-10-iot-enterprise, windows-iot-core-10, windowsiot, wso2iot, xamarin.iot
 - ***raspberry-pi***: adafruit, android-things, attiny, avrdude, esp32, esp8266, firmata, gpio, hm-10, home-automation, intel-galileo, johnny-five, lora, motordriver, mpu6050, nodemc, omxplayer, raspberry-pi, raspberry-pi-zero, raspberry-pi2, raspberry-pi3, raspberry-pi4, raspbian, serial-communication, servo, sim900, teensy, wiringpi, xbee
+
+**Replication Materials to Answer to RQs in the paper.**
+IoT post metadata required in each RQ: IoTPostInformation.csv
+
+- ***RQ1 supporting files***: TopicLabelingIoT.xlsx and TopicIdsWithDominantDocIds.pkl
+- ***RQ2 supporting files***: Relative and Absolute Posts.xlsx, IoTPostInformation.csv
+- ***RQ3 supporting files***: Consensus Applied sample.xlsx, Percentage of Posts.xlsx 
+- ***RQ4 supporting files***: TopicLabelingIoT.xlsx and TopicIdsWithDominantDocIds.pkl, IoTPostInformation.csv, Popularity.xlsx, Difficulty.xlsx
 
 **_Topic Absolute Impact:_** 
 
@@ -25,9 +35,3 @@ href="https://www.codecogs.com/eqnedit.php?latex=impact_{absolute}(z_k;m)&space;
 
 We  use  the  relative  impact  metric to  calculate  the  relative  impact  of  IoT  topic  for  a  specific  time. We define the relative impact metric of a topic zk in month mover corpus c as
 <a href="https://www.codecogs.com/eqnedit.php?latex=impact_{relative}(c,zk,m)&space;=&space;\frac{1}&space;{|D(c,m)|}\sum_{di=1}^\theta&space;(di;&space;zk)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?impact_{relative}(c,zk,m)&space;=&space;\frac{1}&space;{|D(c,m)|}\sum_{di=1}^\theta&space;(di;&space;zk)" title="impact_{relative}(c,zk,m) = \frac{1} {|D(c,m)|}\sum_{di=1}^\theta (di; zk)" /></a>
-
-**_Q3.  What types of questions are asked across the IoT topics?_**
-
-
-**_Q4.  How do the popularity and difficulty of the topics vary?_**
-
