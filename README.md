@@ -27,6 +27,8 @@ IoT post metadata required in each RQ: IoTPostInformation.csv
 **_Topic Absolute Impact:_** 
 
 We compute topic popularity metric is used  to identify the topic popularity for each topic for IoT domain from corpus collected from Stackoverflow from September,2008 to August 2019. We compute the absolute impact of the topic for fourcategory (Software,Hardware,Network, Tutorial). 
+
+
 **_Topic Relative Impact:_**
 
 We  use  the  relative  impact  metric to  calculate  the  relative  impact  of  IoT  topic  for  a  specific  time. We define the relative impact metric of a topic for a month as compare to the total posts for particluar moth.
