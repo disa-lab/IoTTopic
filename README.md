@@ -26,11 +26,8 @@ IoT post metadata required in each RQ: IoTPostInformation.csv
 
 **_Topic Absolute Impact:_** 
 
-We compute topic popularity metric is used  to identify the topic popularity for each topic for IoT domain from corpus collected from Stackoverflow from September,2008 to August 2019. We compute the absolute impact of the topic for fourcategory (Software,Hardware,Network, Tutorial). The popularity of a topic Zk within corpus cj for a post di, where i can be any topic within corpus cj. Formally, the popularity of each topic is defined as:  
-<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{equation}&space;popularity&space;(z_k,c_j)&space;=&space;\frac{|{d_i}|}{|c_j|}:dominant&space;(d_i)=z_k,&space;1\le&space;i&space;\le&space;c_j,&space;1\le&space;j\le&space;K&space;\label{topicpoularity}&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{equation}&space;popularity&space;(z_k,c_j)&space;=&space;\frac{|{d_i}|}{|c_j|}:dominant&space;(d_i)=z_k,&space;1\le&space;i&space;\le&space;c_j,&space;1\le&space;j\le&space;K&space;\label{topicpoularity}&space;\end{equation}" title="\begin{equation} popularity (z_k,c_j) = \frac{|{d_i}|}{|c_j|}:dominant (d_i)=z_k, 1\le i \le c_j, 1\le j\le K \label{topicpoularity} \end{equation}" /></a>
-
+We compute topic popularity metric is used  to identify the topic popularity for each topic for IoT domain from corpus collected from Stackoverflow from September,2008 to August 2019. We compute the absolute impact of the topic for fourcategory (Software,Hardware,Network, Tutorial). 
 **_Topic Relative Impact:_**
 
-We  use  the  relative  impact  metric to  calculate  the  relative  impact  of  IoT  topic  for  a  specific  time. We define the relative impact metric of a topic zk in month mover corpus c as under, where D(m) shows the total number of posts for a month m 
+We  use  the  relative  impact  metric to  calculate  the  relative  impact  of  IoT  topic  for  a  specific  time. We define the relative impact metric of a topic for a month as compare to the total posts for particluar moth.
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{equation}&space;impact_{relative}(z_k,m)&space;=&space;\frac{1}{|D(m)|}\sum_{d_i=1}^\theta(d_i;&space;z_k)&space;,&space;1\le&space;i\le&space;c_i&space;\label{relativeeq}&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{equation}&space;impact_{relative}(z_k,m)&space;=&space;\frac{1}{|D(m)|}\sum_{d_i=1}^\theta(d_i;&space;z_k)&space;,&space;1\le&space;i\le&space;c_i&space;\label{relativeeq}&space;\end{equation}" title="\begin{equation} impact_{relative}(z_k,m) = \frac{1}{|D(m)|}\sum_{d_i=1}^\theta(d_i; z_k) , 1\le i\le c_i \label{relativeeq} \end{equation}" /></a>
